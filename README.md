@@ -1,5 +1,5 @@
 # RCD
-Program for calculation of rotational circular dichroism
+Program for calculation of rotational circular dichroism  
 Closed-shell and open-shell molecules
 # Installation
 Download, unpack the repository, execute the "compile.sh" script
