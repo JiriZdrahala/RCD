@@ -1,0 +1,81 @@
+CALC_TYPE
+RR
+
+PARTFUN
+APPROX
+
+TEMP !Kelvin
+2
+
+GAUSSIAN_REPAXES
+t
+
+HWHM !Lorentzian,MHz
+0.5
+
+GRAIN !Distance between points in spectrum in MHz
+2.0
+
+MW_SPECTRUM
+t
+
+SPECTRAL_SHAPE
+LOR
+
+MOLPAR_ONLY
+f
+
+J_START
+0
+
+J_END
+110
+
+REP
+1r
+
+SKIP_TRANS_NOTINFREQ
+t
+
+SKIP_TRANS_LOWPOP
+f
+
+LOWPOP_TOLERANCE
+1d-2
+
+FREQ_RANGE !GHz
+0-10
+
+SPIN_MULT !electron
+1
+
+MIN_DIPSTR
+0.01
+
+MIN_ROTSTR
+1.0d-9
+
+MIN_KUHN
+1.0d-7
+
+SPR_UNITS
+l.mol-1.cm-1
+
+ORDER_BY
+FREQ
+
+!Molecular parameters the program calculates with
+.molp !(1-file)
+0
+
+!Transition file
+.trn !(1-file, 2-JPL intensity, 3-nothing, 4-decimal point format, 5-top row, 6-filter,7-procedural output,8-show zeroes,9-spin in filename)
+110010000
+
+!Band spectrum file
+.spr !(1-file, 2-filter, 3-temperature effects, 4-temperature and spin in filename)
+1110
+
+!JPL cat file TODO
+.cat
+1

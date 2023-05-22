@@ -1,0 +1,18 @@
+!rotational constants from https://doi.org/10.1063/1.1743645
+!dipole moment and gtensor from https://doi.org/10.1016/0009-2614(91)90282-E
+MASS
+58.07914
+
+SYMM
+1
+
+ABC (units=mc)   
+18023.72 6682.12 5951.48
+
+DIP (units=debye)          
+-2.6 -0.69 -1.35
+           
+G_TEN                
+         0.0037          0.0021          0.0254
+         0.0024         -0.0011         -0.0049
+         0.0095         -0.0016         -0.0023
